@@ -29,8 +29,8 @@
           <element id="archive" name="eshop-manager-interface-1.0-SNAPSHOT.jar">
             <element id="module-output" name="eshop-manager-interface" />
           </element>
-          <element id="archive" name="eshop-manager-pojo-1.0-SNAPSHOT.jar">
-            <element id="module-output" name="eshop-manager-pojo" />
+          <element id="archive" name="eshop-manager-entity-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="eshop-manager-entity" />
           </element>
           <element id="library" level="project" name="Maven: org.springframework:spring-context:4.2.4.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-aop:4.2.4.RELEASE" />

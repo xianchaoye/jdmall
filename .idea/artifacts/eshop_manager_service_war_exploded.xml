@@ -10,8 +10,8 @@
           <element id="archive" name="eshop-manager-dao-1.0-SNAPSHOT.jar">
             <element id="module-output" name="eshop-manager-dao" />
           </element>
-          <element id="archive" name="eshop-manager-pojo-1.0-SNAPSHOT.jar">
-            <element id="module-output" name="eshop-manager-pojo" />
+          <element id="archive" name="eshop-manager-entity-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="eshop-manager-entity" />
           </element>
           <element id="archive" name="eshop-common-1.0-SNAPSHOT.jar">
             <element id="module-output" name="eshop-common" />
