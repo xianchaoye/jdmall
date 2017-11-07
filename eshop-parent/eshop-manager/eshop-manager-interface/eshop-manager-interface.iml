@@ -11,7 +11,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Maven: com.eshop:eshop-manager-pojo:1.0-SNAPSHOT" level="project" />
+    <orderEntry type="module" module-name="eshop-manager-entity" />
     <orderEntry type="module" module-name="eshop-common" />
     <orderEntry type="library" name="Maven: joda-time:joda-time:2.5" level="project" />
     <orderEntry type="library" name="Maven: org.apache.commons:commons-lang3:3.3.2" level="project" />

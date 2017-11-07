@@ -13,7 +13,7 @@
 <dependencies>
     <dependency>
         <groupId>com.eshop</groupId>
-        <artifactId>eshop-manager-pojo</artifactId>
+        <artifactId>eshop-manager-entity</artifactId>
         <version>1.0-SNAPSHOT</version>
     </dependency>
 </dependencies>

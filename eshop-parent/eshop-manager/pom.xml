@@ -11,10 +11,10 @@
     <artifactId>eshop-manager</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>eshop-manager-pojo</module>
         <module>eshop-manager-dao</module>
         <module>eshop-manager-interface</module>
         <module>eshop-manager-service</module>
+        <module>eshop-manager-entity</module>
     </modules>
     <dependencies>
         <dependency>
