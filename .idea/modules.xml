@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/eshop-parent/eshop-common/eshop-common.iml" filepath="$PROJECT_DIR$/eshop-parent/eshop-common/eshop-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eshop-parent/eshop-manager/eshop-manager.iml" filepath="$PROJECT_DIR$/eshop-parent/eshop-manager/eshop-manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eshop-parent/eshop-manager/eshop-manager-dao/eshop-manager-dao.iml" filepath="$PROJECT_DIR$/eshop-parent/eshop-manager/eshop-manager-dao/eshop-manager-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eshop-parent/eshop-manager/eshop-manager-interface/eshop-manager-interface.iml" filepath="$PROJECT_DIR$/eshop-parent/eshop-manager/eshop-manager-interface/eshop-manager-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eshop-parent/eshop-manager/eshop-manager-pojo/eshop-manager-pojo.iml" filepath="$PROJECT_DIR$/eshop-parent/eshop-manager/eshop-manager-pojo/eshop-manager-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eshop-parent/eshop-manager/eshop-manager-service/eshop-manager-service.iml" filepath="$PROJECT_DIR$/eshop-parent/eshop-manager/eshop-manager-service/eshop-manager-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eshop-parent/eshop-manager-web/eshop-manager-web.iml" filepath="$PROJECT_DIR$/eshop-parent/eshop-manager-web/eshop-manager-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eshop-parent/eshop-parent.iml" filepath="$PROJECT_DIR$/eshop-parent/eshop-parent.iml" />
+    </modules>
+  </component>
+</project>
