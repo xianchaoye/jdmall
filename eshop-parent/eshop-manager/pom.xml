@@ -26,12 +26,13 @@
     <build>
         <finalName>${project.artifactId}</finalName>
         <plugins>
+            <!--配置tomcat插件-->
             <plugin>
                 <groupId>org.apache.tomcat.maven</groupId>
                 <artifactId>tomcat7-maven-plugin</artifactId>
                 <configuration>
                     <path>/</path>
-                    <port>8080</port>
+                    <port >8080</port>
                 </configuration>
             </plugin>
         </plugins>
