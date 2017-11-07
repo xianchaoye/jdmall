@@ -1,5 +1,6 @@
 package com.eshop.manager.controller;
 
+import com.eshop.common.utils.EUIDataGridResult;
 import com.eshop.manager.api.ItemService;
 import com.eshop.manager.entity.TbItem;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,4 +24,16 @@ public class ItemController {
         TbItem item = itemService.getItemById(itemId);
         return item;
     }
+    /**
+     * 获取商品列表
+     * @param page
+     * @param rows
+     * @return
+     */
+    @RequestMapping("/item/list")
+    @ResponseBody
+    public EUIDataGridResult getItemForPage(Integer page, Integer rows){
+        return itemService.getItemForPage(page, rows);
+    }
+
 }
