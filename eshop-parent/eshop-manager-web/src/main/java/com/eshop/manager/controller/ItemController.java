@@ -1,6 +1,7 @@
 package com.eshop.manager.controller;
 
 import com.eshop.common.utils.EUIDataGridResult;
+import com.eshop.common.utils.MallResult;
 import com.eshop.manager.api.ItemService;
 import com.eshop.manager.entity.TbItem;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -35,5 +36,13 @@ public class ItemController {
     public EUIDataGridResult getItemForPage(Integer page, Integer rows){
         return itemService.getItemForPage(page, rows);
     }
-
+    /**
+     * 删除商品
+     * @return
+     */
+    @RequestMapping("/item/delete")
+    @ResponseBody
+    public MallResult getItemForPage(Long[] ids){
+        return itemService.deleteItemByIds(ids);
+    }
 }

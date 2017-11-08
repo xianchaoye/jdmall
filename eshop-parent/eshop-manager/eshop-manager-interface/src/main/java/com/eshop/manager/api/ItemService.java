@@ -1,6 +1,7 @@
 package com.eshop.manager.api;
 
 import com.eshop.common.utils.EUIDataGridResult;
+import com.eshop.common.utils.MallResult;
 import com.eshop.manager.entity.TbItem;
 
 /**
@@ -9,5 +10,8 @@ import com.eshop.manager.entity.TbItem;
 public interface ItemService {
 
     TbItem getItemById(long itemId);
+
     EUIDataGridResult getItemForPage(Integer page, Integer rows);
+
+    MallResult deleteItemByIds(Long[] ids);
 }

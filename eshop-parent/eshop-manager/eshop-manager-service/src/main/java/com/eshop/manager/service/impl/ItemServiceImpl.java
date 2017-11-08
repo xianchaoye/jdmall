@@ -1,6 +1,7 @@
 package com.eshop.manager.service.impl;
 
 import com.eshop.common.utils.EUIDataGridResult;
+import com.eshop.common.utils.MallResult;
 import com.eshop.manager.api.ItemService;
 import com.eshop.manager.entity.TbItem;
 import com.eshop.manager.entity.TbItemExample;
@@ -10,6 +11,7 @@ import com.github.pagehelper.PageInfo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -32,5 +34,17 @@ public class ItemServiceImpl implements ItemService {
         PageInfo pageInfo = new PageInfo(tbItems);
         EUIDataGridResult result = new EUIDataGridResult(pageInfo.getTotal(),tbItems);
         return result;
+    }
+
+    @Override
+    public MallResult deleteItemByIds(Long[] ids) {
+        TbItemExample example = new TbItemExample();
+        TbItemExample.Criteria criteria = example.createCriteria();
+        criteria.andIdIn(Arrays.asList(ids));
+        int i = itemMapper.deleteByExample(example);
+        if (i>0){
+            return MallResult.ok();
+        }
+        return MallResult.build(500, "处理异常");
     }
 }
