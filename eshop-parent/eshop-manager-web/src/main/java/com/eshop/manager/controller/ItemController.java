@@ -40,8 +40,7 @@ public class ItemController {
     @RequestMapping("/item/save")
     @ResponseBody
     public MallResult saveNewItem(TbItem item, String desc, String itemParams) throws Exception {
-
-        return null;
+        return itemService.addNewItem(item, desc, itemParams);
     }
     /**
      * 删除商品

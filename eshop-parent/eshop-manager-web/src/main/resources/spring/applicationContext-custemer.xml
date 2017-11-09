@@ -14,4 +14,7 @@
     <dubbo:registry protocol="zookeeper" address="127.0.0.1:2181"/>
     <dubbo:reference interface="com.eshop.manager.api.ItemService" id="itemService" timeout="30000"/>
     <dubbo:reference interface="com.eshop.manager.api.ItemCatService" id="itemCatService" timeout="30000" />
+    <dubbo:reference interface="com.eshop.manager.api.ItemParamService" id="itemParamService" timeout="30000" />
+    <dubbo:reference interface="com.eshop.manager.api.ContentService" id="contentService" timeout="30000" />
+    <dubbo:reference interface="com.eshop.manager.api.ContentCategoryService" id="contentCategoryService" timeout="30000" />
 </beans>
