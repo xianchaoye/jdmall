@@ -36,6 +36,13 @@ public class ItemController {
     public EUIDataGridResult getItemForPage(Integer page, Integer rows){
         return itemService.getItemForPage(page, rows);
     }
+
+    @RequestMapping("/item/save")
+    @ResponseBody
+    public MallResult saveNewItem(TbItem item, String desc, String itemParams) throws Exception {
+
+        return null;
+    }
     /**
      * 删除商品
      * @return

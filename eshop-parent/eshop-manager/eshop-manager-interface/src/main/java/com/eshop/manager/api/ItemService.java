@@ -13,5 +13,7 @@ public interface ItemService {
 
     EUIDataGridResult getItemForPage(Integer page, Integer rows);
 
+    MallResult addNewItem(TbItem item, String desc, String itemParam) throws Exception;
+
     MallResult deleteItemByIds(Long[] ids);
 }
