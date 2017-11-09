@@ -1,6 +1,7 @@
 package com.eshop.content.api;
 
 
+import com.eshop.common.utils.CatResult;
 import com.eshop.common.utils.EUITreeNode;
 import com.eshop.common.utils.MallResult;
 
