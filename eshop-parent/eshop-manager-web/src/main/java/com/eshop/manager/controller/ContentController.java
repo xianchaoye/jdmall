@@ -43,4 +43,14 @@ public class ContentController {
 	public EUIDataGridResult queryListForPage(long categoryId,Integer page, Integer rows) {
 		return contentService.getContentList(categoryId,page,rows);
 	}
+	/**
+	 * 删除内容
+	 * @return
+	 */
+	@RequestMapping("/delete")
+	@ResponseBody
+	public MallResult queryListForPage(Long[] ids) {
+		return  contentService.deleteContent(ids);
+	}
+
 }

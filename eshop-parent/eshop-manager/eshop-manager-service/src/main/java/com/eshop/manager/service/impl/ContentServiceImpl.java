@@ -14,6 +14,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
+import java.util.Arrays;
 import java.util.Date;
 import java.util.List;
 
@@ -49,6 +50,19 @@ public class ContentServiceImpl implements ContentService {
 		}
 		
 		return MallResult.ok();
+	}
+
+	@Override
+	public MallResult deleteContent(Long[] ids) {
+		TbContentExample example = new TbContentExample();
+        TbContentExample.Criteria criteria = example.createCriteria();
+        criteria.andIdIn(Arrays.asList(ids));
+        int i = contentMapper.deleteByExample(example);
+        if (i > 0) {
+            return MallResult.ok();
+        }
+
+        return MallResult.build(500,"删除失败异常");
 	}
 
 	@Override

@@ -10,5 +10,6 @@ import java.util.List;
 public interface ContentService {
 
 	MallResult insertContent(TbContent content);
+	MallResult deleteContent(Long[] ids);
 	public EUIDataGridResult getContentList(long contentCid,Integer page,Integer pageSize);
 }
