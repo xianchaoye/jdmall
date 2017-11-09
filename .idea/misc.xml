@@ -4,8 +4,10 @@
     <entry_points version="2.0" />
   </component>
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/eshop-parent/eshop-content/eshop-content-service" />
     <file type="web" url="file://$PROJECT_DIR$/eshop-parent/eshop-manager-web" />
     <file type="web" url="file://$PROJECT_DIR$/eshop-parent/eshop-manager/eshop-manager-service" />
+    <file type="web" url="file://$PROJECT_DIR$/eshop-parent/eshop-portal-web" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">

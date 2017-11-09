@@ -2,7 +2,7 @@ package com.eshop.manager.controller;
 
 import com.eshop.common.utils.EUIDataGridResult;
 import com.eshop.common.utils.MallResult;
-import com.eshop.manager.api.ContentService;
+import com.eshop.content.api.ContentService;
 import com.eshop.manager.entity.TbContent;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

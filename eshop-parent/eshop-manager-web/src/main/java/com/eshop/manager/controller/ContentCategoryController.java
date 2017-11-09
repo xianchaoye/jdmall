@@ -2,7 +2,7 @@ package com.eshop.manager.controller;
 
 import com.eshop.common.utils.EUITreeNode;
 import com.eshop.common.utils.MallResult;
-import com.eshop.manager.api.ContentCategoryService;
+import com.eshop.content.api.ContentCategoryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

@@ -23,15 +23,21 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="eshop-common" />
+        <module name="eshop-content-interface" />
+        <module name="eshop-content-service" />
         <module name="eshop-manager-dao" />
         <module name="eshop-manager-entity" />
         <module name="eshop-manager-interface" />
         <module name="eshop-manager-service" />
         <module name="eshop-manager-web" />
+        <module name="eshop-portal-web" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="eshop-common" target="1.7" />
+      <module name="eshop-content" target="1.7" />
+      <module name="eshop-content-interface" target="1.7" />
+      <module name="eshop-content-service" target="1.7" />
       <module name="eshop-manager" target="1.7" />
       <module name="eshop-manager-dao" target="1.7" />
       <module name="eshop-manager-entity" target="1.7" />
@@ -40,6 +46,7 @@
       <module name="eshop-manager-service" target="1.7" />
       <module name="eshop-manager-web" target="1.7" />
       <module name="eshop-parent" target="1.7" />
+      <module name="eshop-portal-web" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

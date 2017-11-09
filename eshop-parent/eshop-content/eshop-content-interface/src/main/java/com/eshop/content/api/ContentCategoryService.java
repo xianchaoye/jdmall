@@ -1,4 +1,4 @@
-package com.eshop.manager.api;
+package com.eshop.content.api;
 
 
 import com.eshop.common.utils.EUITreeNode;

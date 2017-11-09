@@ -15,6 +15,6 @@
     <dubbo:reference interface="com.eshop.manager.api.ItemService" id="itemService" timeout="30000"/>
     <dubbo:reference interface="com.eshop.manager.api.ItemCatService" id="itemCatService" timeout="30000" />
     <dubbo:reference interface="com.eshop.manager.api.ItemParamService" id="itemParamService" timeout="30000" />
-    <dubbo:reference interface="com.eshop.manager.api.ContentService" id="contentService" timeout="30000" />
-    <dubbo:reference interface="com.eshop.manager.api.ContentCategoryService" id="contentCategoryService" timeout="30000" />
+    <dubbo:reference interface="com.eshop.content.api.ContentService" id="contentService" timeout="30000" />
+    <dubbo:reference interface="com.eshop.content.api.ContentCategoryService" id="contentCategoryService" timeout="30000" />
 </beans>

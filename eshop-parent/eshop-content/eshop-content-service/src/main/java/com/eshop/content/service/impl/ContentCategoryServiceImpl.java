@@ -1,8 +1,8 @@
-package com.eshop.manager.service.impl;
+package com.eshop.content.service.impl;
 
 import com.eshop.common.utils.EUITreeNode;
 import com.eshop.common.utils.MallResult;
-import com.eshop.manager.api.ContentCategoryService;
+import com.eshop.content.api.ContentCategoryService;
 import com.eshop.manager.entity.TbContentCategory;
 import com.eshop.manager.entity.TbContentCategoryExample;
 import com.eshop.manager.mapper.TbContentCategoryMapper;
