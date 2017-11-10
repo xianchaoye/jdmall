@@ -13,6 +13,9 @@
     <file url="file://$PROJECT_DIR$/eshop-parent/eshop-manager/eshop-manager-interface" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eshop-parent/eshop-manager/eshop-manager-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eshop-parent/eshop-portal-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eshop-parent/eshop-redis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eshop-parent/eshop-redis/eshop-redis-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eshop-parent/eshop-redis/eshop-redis-service" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

@@ -1,31 +1,17 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="eshop-manager-service:war exploded">
-    <output-path>$PROJECT_DIR$/eshop-parent/eshop-manager/eshop-manager-service/target/eshop-manager-service</output-path>
+  <artifact type="exploded-war" name="eshop-redis-service:war exploded">
+    <output-path>$PROJECT_DIR$/eshop-parent/eshop-redis/eshop-redis-service/target/eshop-redis-service</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="eshop-manager-service" />
+          <element id="module-output" name="eshop-redis-service" />
         </element>
         <element id="directory" name="lib">
-          <element id="archive" name="eshop-manager-dao-1.0-SNAPSHOT.jar">
-            <element id="module-output" name="eshop-manager-dao" />
-          </element>
-          <element id="archive" name="eshop-manager-entity-1.0-SNAPSHOT.jar">
-            <element id="module-output" name="eshop-manager-entity" />
+          <element id="archive" name="eshop-redis-interface-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="eshop-redis-interface" />
           </element>
           <element id="archive" name="eshop-common-1.0-SNAPSHOT.jar">
             <element id="module-output" name="eshop-common" />
-          </element>
-          <element id="library" level="project" name="Maven: org.mybatis:mybatis:3.2.8" />
-          <element id="library" level="project" name="Maven: org.mybatis:mybatis-spring:1.2.2" />
-          <element id="library" level="project" name="Maven: com.github.miemiedev:mybatis-paginator:1.2.15" />
-          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.6.1" />
-          <element id="library" level="project" name="Maven: com.github.pagehelper:pagehelper:3.4.2-fix" />
-          <element id="library" level="project" name="Maven: com.github.jsqlparser:jsqlparser:0.9" />
-          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.32" />
-          <element id="library" level="project" name="Maven: com.alibaba:druid:1.0.9" />
-          <element id="archive" name="eshop-manager-interface-1.0-SNAPSHOT.jar">
-            <element id="module-output" name="eshop-manager-interface" />
           </element>
           <element id="library" level="project" name="Maven: org.springframework:spring-context:4.2.4.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-aop:4.2.4.RELEASE" />
@@ -46,6 +32,7 @@
           <element id="library" level="project" name="Maven: com.alibaba:dubbo:2.5.3" />
           <element id="library" level="project" name="Maven: org.javassist:javassist:3.15.0-GA" />
           <element id="library" level="project" name="Maven: org.apache.zookeeper:zookeeper:3.4.7" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.6.1" />
           <element id="library" level="project" name="Maven: org.slf4j:slf4j-log4j12:1.6.4" />
           <element id="library" level="project" name="Maven: log4j:log4j:1.2.16" />
           <element id="library" level="project" name="Maven: jline:jline:0.9.94" />
@@ -66,13 +53,12 @@
           <element id="library" level="project" name="Maven: org.quartz-scheduler:quartz:2.2.2" />
           <element id="library" level="project" name="Maven: c3p0:c3p0:0.9.1.1" />
           <element id="library" level="project" name="Maven: fastdfs_client:fastdfs_client:1.25" />
-          <element id="library" level="project" name="Maven: com.alibaba:fastjson:1.2.4" />
         </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/eshop-parent/eshop-manager/eshop-manager-service/target/eshop-manager-service/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/eshop-parent/eshop-redis/eshop-redis-service/target/eshop-redis-service/META-INF/MANIFEST.MF" />
       </element>
-      <element id="javaee-facet-resources" facet="eshop-manager-service/web/Web" />
+      <element id="javaee-facet-resources" facet="eshop-redis-service/web/Web" />
     </root>
   </artifact>
 </component>

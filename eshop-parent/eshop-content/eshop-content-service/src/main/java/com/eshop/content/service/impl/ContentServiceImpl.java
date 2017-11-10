@@ -1,6 +1,7 @@
 package com.eshop.content.service.impl;
 
 import com.eshop.common.utils.EUIDataGridResult;
+import com.eshop.common.utils.JsonUtils;
 import com.eshop.common.utils.MallResult;
 import com.eshop.content.api.ContentService;
 import com.eshop.manager.entity.TbContent;
@@ -8,7 +9,9 @@ import com.eshop.manager.entity.TbContentExample;
 import com.eshop.manager.mapper.TbContentMapper;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
 import java.util.Arrays;
@@ -30,10 +33,10 @@ public class ContentServiceImpl implements ContentService {
     @Autowired
     private TbContentMapper contentMapper;
 
-    /*@Value("${INDEX_CONTENT_REDIS_KEY}")
-    private String INDEX_CONTENT_REDIS_KEY;
+    @Value("${INDEX_CONTENT}")
+    private String INDEX_CONTENT;
     @Autowired
-    private JedisClient jedisClient;*/
+    private JedisClient jedisClient;
     @Override
     public MallResult insertContent(TbContent content) {
         //补全pojo内容
@@ -43,7 +46,7 @@ public class ContentServiceImpl implements ContentService {
 
         //添加缓存同步逻辑
         try {
-            //HttpClientUtil.doGet(REST_BASE_URL + REST_CONTENT_SYNC_URL + content.getCategoryId());
+            jedisClient.hdel(INDEX_CONTENT,content.getCategoryId()+"");
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -105,7 +108,7 @@ public class ContentServiceImpl implements ContentService {
     public List<TbContent> getContentByCid(long cid) {
         //先查询缓存
         //添加缓存不能影响正常业务逻辑
-        /*try {
+        try {
             //查询缓存
             String json = jedisClient.hget(INDEX_CONTENT, cid + "");
             //查询到结果，把json转换成List返回
@@ -115,7 +118,7 @@ public class ContentServiceImpl implements ContentService {
             }
         } catch (Exception e) {
             e.printStackTrace();
-        }*/
+        }
         //缓存中没有命中，需要查询数据库
         TbContentExample example = new TbContentExample();
         TbContentExample.Criteria criteria = example.createCriteria();
@@ -123,12 +126,12 @@ public class ContentServiceImpl implements ContentService {
         criteria.andCategoryIdEqualTo(cid);
         //执行查询
         List<TbContent> list = contentMapper.selectByExample(example);
-        /*//把结果添加到缓存
+        //把结果添加到缓存
         try {
             jedisClient.hset(INDEX_CONTENT, cid + "", JsonUtils.objectToJson(list));
         } catch (Exception e) {
             e.printStackTrace();
-        }*/
+        }
         //返回结果
         return list;
     }

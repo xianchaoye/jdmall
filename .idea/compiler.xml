@@ -47,6 +47,9 @@
       <module name="eshop-manager-web" target="1.7" />
       <module name="eshop-parent" target="1.7" />
       <module name="eshop-portal-web" target="1.7" />
+      <module name="eshop-redis" target="1.7" />
+      <module name="eshop-redis-interface" target="1.7" />
+      <module name="eshop-redis-service" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

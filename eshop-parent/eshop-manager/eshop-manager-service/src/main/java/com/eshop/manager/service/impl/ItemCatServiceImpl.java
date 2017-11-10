@@ -18,10 +18,8 @@ import java.util.List;
  */
 @Service("itemCatService")
 public class ItemCatServiceImpl implements ItemCatService {
-
     @Autowired
     private TbItemCatMapper itemCatMapper;
-
     /**
      * 查询商品类目节点
      *
@@ -44,7 +42,6 @@ public class ItemCatServiceImpl implements ItemCatService {
 
     @Override
     public CatResult getItemCatList() {
-
         CatResult catResult = new CatResult();
         //查询分类列表
         catResult.setData(getCatList(0));
