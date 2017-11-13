@@ -1,0 +1,6 @@
+8080:eshop-manager-service
+8081:eshop-content-service
+8082:eshop-search-service
+8086:eshop-manager-web
+8087：eshop-portal-web
+8088:eshop-search-web

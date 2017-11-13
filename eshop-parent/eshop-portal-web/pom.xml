@@ -23,6 +23,11 @@
         </dependency>
         <dependency>
             <groupId>com.eshop</groupId>
+            <artifactId>eshop-search-interface</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.eshop</groupId>
             <artifactId>eshop-manager-interface</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
@@ -102,7 +107,7 @@
                 <artifactId>tomcat7-maven-plugin</artifactId>
                 <configuration>
                     <path>/</path>
-                    <port>8089</port>
+                    <port>8087</port>
                 </configuration>
             </plugin>
         </plugins>

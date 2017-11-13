@@ -9,6 +9,8 @@
     <file type="web" url="file://$PROJECT_DIR$/eshop-parent/eshop-manager/eshop-manager-service" />
     <file type="web" url="file://$PROJECT_DIR$/eshop-parent/eshop-portal-web" />
     <file type="web" url="file://$PROJECT_DIR$/eshop-parent/eshop-redis/eshop-redis-service" />
+    <file type="web" url="file://$PROJECT_DIR$/eshop-parent/eshop-search-web" />
+    <file type="web" url="file://$PROJECT_DIR$/eshop-parent/eshop-search/eshop-search-service" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -18,6 +20,8 @@
         <option value="$PROJECT_DIR$/eshop-parent/eshop-manager/pom.xml" />
         <option value="$PROJECT_DIR$/eshop-parent/eshop-manager-web/pom.xml" />
         <option value="$PROJECT_DIR$/eshop-parent/eshop-redis/pom.xml" />
+        <option value="$PROJECT_DIR$/eshop-parent/eshop-search/pom.xml" />
+        <option value="$PROJECT_DIR$/eshop-parent/eshop-search-web/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

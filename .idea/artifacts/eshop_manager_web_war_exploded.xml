@@ -37,6 +37,9 @@
           <element id="archive" name="eshop-content-interface-1.0-SNAPSHOT.jar">
             <element id="module-output" name="eshop-content-interface" />
           </element>
+          <element id="archive" name="eshop-search-interface-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="eshop-search-interface" />
+          </element>
           <element id="library" level="project" name="Maven: org.springframework:spring-context:4.2.4.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-aop:4.2.4.RELEASE" />
           <element id="library" level="project" name="Maven: aopalliance:aopalliance:1.0" />

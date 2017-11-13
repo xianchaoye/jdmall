@@ -31,6 +31,9 @@
         <module name="eshop-manager-service" />
         <module name="eshop-manager-web" />
         <module name="eshop-portal-web" />
+        <module name="eshop-search-interface" />
+        <module name="eshop-search-service" />
+        <module name="eshop-search-web" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -50,6 +53,10 @@
       <module name="eshop-redis" target="1.7" />
       <module name="eshop-redis-interface" target="1.7" />
       <module name="eshop-redis-service" target="1.7" />
+      <module name="eshop-search" target="1.7" />
+      <module name="eshop-search-interface" target="1.7" />
+      <module name="eshop-search-service" target="1.7" />
+      <module name="eshop-search-web" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -34,6 +34,9 @@
           <element id="archive" name="eshop-manager-entity-1.0-SNAPSHOT.jar">
             <element id="module-output" name="eshop-manager-entity" />
           </element>
+          <element id="archive" name="eshop-search-interface-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="eshop-search-interface" />
+          </element>
           <element id="archive" name="eshop-manager-interface-1.0-SNAPSHOT.jar">
             <element id="module-output" name="eshop-manager-interface" />
           </element>
