@@ -25,6 +25,7 @@
         <module name="eshop-common" />
         <module name="eshop-content-interface" />
         <module name="eshop-content-service" />
+        <module name="eshop-item-web" />
         <module name="eshop-manager-dao" />
         <module name="eshop-manager-entity" />
         <module name="eshop-manager-interface" />
@@ -41,6 +42,7 @@
       <module name="eshop-content" target="1.7" />
       <module name="eshop-content-interface" target="1.7" />
       <module name="eshop-content-service" target="1.7" />
+      <module name="eshop-item-web" target="1.7" />
       <module name="eshop-manager" target="1.7" />
       <module name="eshop-manager-dao" target="1.7" />
       <module name="eshop-manager-entity" target="1.7" />

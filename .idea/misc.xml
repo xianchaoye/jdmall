@@ -5,6 +5,7 @@
   </component>
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/eshop-parent/eshop-content/eshop-content-service" />
+    <file type="web" url="file://$PROJECT_DIR$/eshop-parent/eshop-item-web" />
     <file type="web" url="file://$PROJECT_DIR$/eshop-parent/eshop-manager-web" />
     <file type="web" url="file://$PROJECT_DIR$/eshop-parent/eshop-manager/eshop-manager-service" />
     <file type="web" url="file://$PROJECT_DIR$/eshop-parent/eshop-portal-web" />
@@ -22,6 +23,7 @@
         <option value="$PROJECT_DIR$/eshop-parent/eshop-redis/pom.xml" />
         <option value="$PROJECT_DIR$/eshop-parent/eshop-search/pom.xml" />
         <option value="$PROJECT_DIR$/eshop-parent/eshop-search-web/pom.xml" />
+        <option value="$PROJECT_DIR$/eshop-parent/eshop-item-web/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

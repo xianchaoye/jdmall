@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/eshop-parent/eshop-content/eshop-content.iml" filepath="$PROJECT_DIR$/eshop-parent/eshop-content/eshop-content.iml" />
       <module fileurl="file://$PROJECT_DIR$/eshop-parent/eshop-content/eshop-content-interface/eshop-content-interface.iml" filepath="$PROJECT_DIR$/eshop-parent/eshop-content/eshop-content-interface/eshop-content-interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/eshop-parent/eshop-content/eshop-content-service/eshop-content-service.iml" filepath="$PROJECT_DIR$/eshop-parent/eshop-content/eshop-content-service/eshop-content-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eshop-parent/eshop-item-web/eshop-item-web.iml" filepath="$PROJECT_DIR$/eshop-parent/eshop-item-web/eshop-item-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/eshop-parent/eshop-manager/eshop-manager.iml" filepath="$PROJECT_DIR$/eshop-parent/eshop-manager/eshop-manager.iml" />
       <module fileurl="file://$PROJECT_DIR$/eshop-parent/eshop-manager/eshop-manager-dao/eshop-manager-dao.iml" filepath="$PROJECT_DIR$/eshop-parent/eshop-manager/eshop-manager-dao/eshop-manager-dao.iml" />
       <module fileurl="file://$PROJECT_DIR$/eshop-parent/eshop-manager/eshop-manager-entity/eshop-manager-entity.iml" filepath="$PROJECT_DIR$/eshop-parent/eshop-manager/eshop-manager-entity/eshop-manager-entity.iml" />

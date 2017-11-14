@@ -112,4 +112,10 @@ public class ItemServiceImpl implements ItemService {
         }
         return MallResult.build(500, "处理异常");
     }
+
+    @Override
+    public TbItemDesc getItemDescById(long itemId) {
+        TbItemDesc itemDesc = itemDescMapper.selectByPrimaryKey(itemId);
+        return itemDesc;
+    }
 }
